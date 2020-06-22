@@ -1,0 +1,20 @@
+.Celebrity{
+    width: 10%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Celebrity button{
+    height: 10%;
+    border: 0.1rem solid rgb(95, 1, 1);
+    color: white;
+    text-shadow: -1px -1px 0 rgb(95, 1, 1), 1px -1px 0 rgb(95, 1, 1), -1px 1px 0 rgb(95, 1, 1), 1px 1px 0 rgb(95, 1, 1);
+    font-size: 1.5rem;
+    background-color: black;
+}
+.Celebrity button:hover{
+    color: rgb(95, 1, 1);
+    cursor: pointer;
+}

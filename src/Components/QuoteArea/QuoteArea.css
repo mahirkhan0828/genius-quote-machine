@@ -1,0 +1,123 @@
+.QuoteAreaInitial{
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.QuoteArea{
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.QuoteAreaPage{
+    height: 100vh;
+    overflow: auto;
+}
+.QuoteArea h1{
+    font-weight: bolder;
+    color: rgb(95, 1, 1);
+    font-size: 3rem;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+.QuoteAreaAllQuotes{
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: scroll;
+}
+.QuoteArea p{
+    color: rgb(95, 1, 1);
+    font-size: 2rem;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+.QuoteAreaAllQuotes p{
+    color: white;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: -0.09rem -0.09rem 0 rgb(95, 1, 1), 0.09rem -0.09rem 0 rgb(95, 1, 1), -0.09rem 0.09rem 0 rgb(95, 1, 1), 0.09rem 0.09rem 0 rgb(95, 1, 1);
+    border: 0.3rem solid rgb(116, 2, 2);
+    margin: 1rem 3rem;
+    background-color: black;
+
+}
+.QuoteArea button{
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: 0.05rem solid white;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem rgb(116, 1, 1);
+    background-color: rgb(95, 1, 1);
+    color: white;
+    margin: 0rem 3rem;
+}
+.QuoteArea button:active{
+  background-color: rgb(73, 2, 2);
+  box-shadow: 0 0.35rem rgb(116, 1, 1);
+  transform: translateY(0.5rem);
+}
+.QuoteArea button:hover{
+    cursor: pointer;
+    background-color: rgb(51, 1, 1);
+}
+.QuoteAreaAllQuotes button{
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: 0.05rem solid white;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem rgb(116, 1, 1);
+    background-color: rgb(95, 1, 1);
+    color: white;
+    margin: 0rem 3rem;
+}
+.QuoteAreaAllQuotes button:active{
+  background-color: rgb(73, 2, 2);
+  box-shadow: 0 0.35rem rgb(116, 1, 1);
+  transform: translateY(0.5rem);
+}
+.QuoteAreaAllQuotes button:hover{
+    cursor: pointer;
+    background-color: rgb(51, 1, 1);
+}
+.QuoteAreaInitial h1{
+    font-weight: bolder;
+    color: rgb(95, 1, 1);
+    font-size: 3rem;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.QuoteArea p{
+    color: rgb(95, 1, 1);
+    font-size: 2rem;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.QuoteArea img{
+    height: 5rem;
+    width: 5rem;
+}
+.QuoteArea img:hover{
+    opacity: 0.3;
+}
+#BottomButton{
+    display: block;
+    margin: 0rem auto 1rem auto;
+}
+#backpackQuotes p{
+    margin: 2rem auto;
+    font-size: 2.3rem;
+    background-color: black;
+    text-shadow: -1px -1px 0 rgb(95, 1, 1), 1px -1px 0 rgb(95, 1, 1), -1px 1px 0 rgb(95, 1, 1), 1px 1px 0 rgb(95, 1, 1);
+    color: white;
+}
